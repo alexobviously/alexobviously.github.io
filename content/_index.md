@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-#### <a id="about" href="#about">Hi, I'm Alex, a person who makes sand think.</a>
+#### <a id="about" href="#about">Hi, I'm Alex, an educator of sand.</a>
 
 Started out writing mods for games as a wee sprog, backend/web as a teenager, studied music technology, worked in AI for a bit, somehow became specialised in chess and language learning too. Now I primarily make Dart backends and Flutter apps, but I'm always experimenting with and open to new things.  
 

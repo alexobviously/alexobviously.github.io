@@ -64,6 +64,8 @@ a:hover, a:focus, a:active {
 
 #content ul {
   list-style: initial;
+  margin-left: 0;
+  padding-left: 20px;
 }
 
 #content .subtitle {
@@ -81,6 +83,10 @@ a:hover, a:focus, a:active {
 
 #section {
   flex:auto;
+}
+
+#fullpage {
+  width: 100%;
 }
 
 #fullpage section {

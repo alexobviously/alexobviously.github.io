@@ -4,6 +4,10 @@
         "anchor": "about"
     },
     {
+        "title": "Services",
+        "anchor": "services"
+    },
+    {
         "title": "Chess Packages",
         "anchor": "chess"
     },

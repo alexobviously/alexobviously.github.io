@@ -1,0 +1,6 @@
+{% macro display(path) %}
+{% set page = get_page(path=path) %}
+
+<h2><a id="{{ page.extra.anchor }}" href="#{{ page.extra.anchor }}">{{ page.title }}</a></h2>
+{{ page.content | safe }}
+{% endmacro %}
