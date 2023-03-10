@@ -1,0 +1,28 @@
+{% import 'macros/head.html' as macros_head -%}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  {{ macros_head::stylesheet() }}
+  <title>Alex Baker</title>
+</head>
+
+<body>
+  <div id="sidebar" class="menu">
+    {{ macros_head::avatar() }}
+    <ul id="menu" class="menu-list">
+      <li><a href="{{ get_url(path='/#about') }}">About Me</a></li>   
+      <li><a href="{{ get_url(path='/#chess') }}">Chess Packages</a></li>
+      <li><a href="{{ get_url(path='/#packages') }}">Other Packages</a></li>
+    </ul>
+  </div>
+  <section class="section">
+    <div id="content" class="container">
+      {% block content %} {% endblock %}
+    </div>
+  </section>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+{% macro stylesheet() %}
+<!-- CSS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Jost">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/saira-extra-condensed@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/open-sans@4.5.0/index.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+<link rel="stylesheet" href="{{ get_url(path='main.css', trailing_slash=false) }}">
+{% endmacro %}
+
+{% macro avatar() %}
+{% if config.extra.avatar %}
+<div style="display:block;margin:auto auto 0;padding:.5rem">
+    <figure class="image">
+        <img id="avatar" class="is-rounded" src="{{ get_url(path=config.extra.avatar ) }}">
+    </figure>
+</div>
+{% endif %}
+{% endmacro %}

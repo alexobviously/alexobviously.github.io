@@ -1,0 +1,18 @@
+{% import 'partials/about.html' as partial_about -%}
+{% import 'partials/section.html' as partial_section -%}
+
+{% extends "base.html" %}
+
+{% block content %}
+<div id="fullpage">
+  <div class="section hero is-fullheight page" id="about">
+    {{ partial_about::display() }}
+  </div>
+  <div class="section hero is-fullheight page" id="chess">
+    {{ partial_section::display(title="Chess Packages", path="chess/_index.md") }}
+  </div>
+  <div class="section hero is-fullheight page" id="packages">
+    {{ partial_section::display(title="Other Packages", path="packages/_index.md") }}
+  </div>
+</div>
+{% endblock content %}

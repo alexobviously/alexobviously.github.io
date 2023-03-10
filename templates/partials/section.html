@@ -1,0 +1,40 @@
+{% macro display(title, path, show_title=false) %}
+{% set section = get_section(path=path) %}
+<div class="is-flex is-flex-direction-column is-justify-content-center">
+  <h2><a id="{{ section.extra.anchor }}" href="#{{ section.extra.anchor }}">{{ title }}</a></h2>
+  <div class="is-hidden-touch">
+    {{ section.content | safe }}
+  </div>
+  <div class="pb-6 pt-2" style="overflow: auto;">
+    {% for page in section.pages %}
+    <div class="mb-5">
+      <div class="is-flex is-flex-direction-row">
+        <div class="content" style="width: 100%;">
+          {% if page.extra.image %}
+          <a href="{{ page.extra.link }}">
+          <figure class="image is-128x128" style="float:left;">
+            {% if page.extra.image is starting_with("http") %}
+            <img src="{{ page.extra.image }}">
+            {% else %}
+            <img src="{{ get_url(path=page.extra.image) }}">
+            {% endif %}
+          </figure>
+        </a>
+          {% endif %}
+          <h4>{{ page.title }}</h4>
+          {{ page.content | markdown() | safe }}
+          <a href="{{ page.permalink }}">Read More</a>
+        </div>
+      </div>
+      {% if page.taxonomies.tags %}
+      <div class="tags">
+        {% for tag in page.taxonomies.tags %}
+        <span class="tag"><a href="/tags/{{ tag | lower }}">{{ tag }}</a></span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endmacro %}
