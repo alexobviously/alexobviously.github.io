@@ -7,7 +7,7 @@ title: "About"
 Started out writing mods for games as a wee sprog, backend/web as a teenager, studied music technology, worked in AI for a bit, somehow became specialised in chess and language learning too. Now I primarily make Dart backends and Flutter apps, but I'm always experimenting with and open to new things.  
 
 My language of choice is Dart 🎯, and I also like Rust 🦀.  
-I create and maintain a number of open source packages for Dart and Flutter.  
+I create and maintain a number of [open source packages](/#open-source) for Dart and Flutter.  
 
 Originally from Manchester, UK. Currently living in Vietnam with my wife and 7 cats.
 
