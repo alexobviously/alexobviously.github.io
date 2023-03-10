@@ -30,4 +30,8 @@ The contents of a technical audit vary based on the situation, but generally it 
 There's a high adoption rate of Dart and Flutter for new software, and with many existing apps transitioning to Flutter. If your team is considering building an application with Flutter and want guidance on an optimal solution, I will be able to help you. I can help a team of existing developers find their footing in their new framework, and start building with greater speed.  
 <br>
 
-I have planned and built many apps in Flutter, and written a number of open source libraries, some of them fairly popular. My knowledge of Dart is deep and nuanced, and I can help you write clean, efficient code, and hopefully cultivate a love for Dart and Flutter like I have.
+I have planned and built many apps in Flutter, and written a number of open source libraries, some of them fairly popular. My knowledge of Dart is deep and nuanced, and I can help you write clean, efficient code, and hopefully cultivate a love for Dart and Flutter like I have.   
+<br>
+
+Another category of work I get a lot of is clients who have a Flutter app, and want to incorporate some fairly difficult feature that needs special attention. I can help you!   
+Some examples of things like this I've helped with: [an efficient 3D model viewport for a health app](https://inuba.com/en/), [a customisable AI for a chess app](https://twoplayerchess.com), processing of user microphone audio, and a responsive streaming system that can handle many videos at once.
