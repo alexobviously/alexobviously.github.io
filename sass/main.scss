@@ -25,17 +25,17 @@ h6 {
 }
 
 
-h1, h2{
+h1, h2 {
   text-transform: lowercase;
 }
 
 h1 {
-  font-size: 4.5vw;
-  line-height: 5vw;
+  font-size: calc(2.5rem + .8vw);
+  line-height: calc(4rem + .8vw);
 }
 
 h2 {
-  font-size: 3.5vw;
+  font-size: calc(2rem + .7vw);
 }
 
 .h3, h3 {
@@ -69,7 +69,7 @@ a:hover, a:focus, a:active {
 }
 
 #content .subtitle {
-  font-size: 1.3vw; 
+  font-size: calc(0.7rem + .3vw);
   font-weight: 550; 
   color: #868e96;
 }
@@ -100,8 +100,12 @@ a:hover, a:focus, a:active {
   outline: 0;
 }
 
-.page{
+.page {
    overflow: hidden;
+}
+
+.package-image {
+  width: calc(64px + 3vw);
 }
 
 @media (max-width:1000px) {
@@ -184,6 +188,7 @@ table td {
 td {
   vertical-align: middle !important;
 }
+
 tr:hover {
   background-color: #eeeeee;
 }
