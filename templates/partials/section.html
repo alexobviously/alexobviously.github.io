@@ -10,22 +10,28 @@
     <div class="mb-5">
       <div class="is-flex is-flex-direction-row">
         <div class="content" style="width: 100%;">
-          {% if page.extra.image %}
-          <a href="{{ page.extra.link }}">
-          <figure class="image is-128x128" style="float:left;">
-            {% if page.extra.image is starting_with("http") %}
-            <img src="{{ page.extra.image }}">
-            {% else %}
-            <img src="{{ get_url(path=page.extra.image) }}">
-            {% endif %}
-          </figure>
-        </a>
-          {% endif %}
-          <h4>{{ page.title }}</h4>
-          {{ page.content | markdown() | safe }}
-          <a href="{{ page.permalink }}">Read More</a>
+          <table>
+            <tr>
+              {% if page.extra.image %}
+              <td style="width: 128px;">
+                <a href="{{ page.extra.link }}">
+                    {% if page.extra.image is starting_with("http") %}
+                    <img src="{{ page.extra.image }}">
+                    {% else %}
+                    <img src="{{ get_url(path=page.extra.image) }}">
+                    {% endif %}
+                </a>
+              </td>
+              {% endif %}
+              <td>
+                <a href="{{ page.extra.link }}">
+                  <h4>{{ page.title }}</h4>
+                  {{ page.content | markdown() | safe }}
+                </a>
+              </td>
+            </tr>
+          </table>
         </div>
-      </div>
       {% if page.taxonomies.tags %}
       <div class="tags">
         {% for tag in page.taxonomies.tags %}

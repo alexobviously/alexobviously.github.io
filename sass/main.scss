@@ -58,7 +58,7 @@ h4 a {
 }
 
 a:hover, a:focus, a:active {
-  color: #824027;
+  color: #78586F
 }
 
 #content ul {
@@ -146,3 +146,15 @@ a:hover, a:focus, a:active {
   }
 }
 
+table,
+table td {
+  border: 1px solid #cccccc;
+  table-layout: fixed;
+}
+
+td {
+  vertical-align: middle !important;
+}
+tr:hover {
+  background-color: #eeeeee;
+}
