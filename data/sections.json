@@ -1,0 +1,14 @@
+[
+    {
+        "title": "About Me",
+        "anchor": "about"
+    },
+    {
+        "title": "Chess Packages",
+        "anchor": "chess"
+    },
+    {
+        "title": "Other Packages",
+        "anchor": "packages"
+    }
+]

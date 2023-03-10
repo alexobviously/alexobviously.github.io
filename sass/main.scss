@@ -1,6 +1,7 @@
 html {
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -93,7 +94,24 @@ a:hover, a:focus, a:active {
    overflow: hidden;
 }
 
-@media (min-width: 992px) {
+@media (max-width:1000px) {
+  #sidebar {
+    display: none;
+  }
+  #topbar {
+    display: block;
+    background-color: #EAEBED;
+    color: #EAEBED;
+    width: 100%;
+    padding: 16px;
+  }
+}
+
+@media (min-width: 1000px) {
+  #topbar {
+    display: none;
+  }
+
   #sidebar {
     top: 0;
     bottom: 0;
@@ -149,6 +167,7 @@ a:hover, a:focus, a:active {
 table,
 table td {
   border: 1px solid #cccccc;
+  border-collapse: collapse; 
   table-layout: fixed;
 }
 

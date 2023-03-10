@@ -1,0 +1,10 @@
+{% macro display() %}
+{% set data = load_data(path="data/sections.json") %}
+<nav class="breadcrumb is-centered is-medium" aria-label="breadcrumbs">
+    <ul>
+        {% for item in data %}
+        <li><a href="{{ get_url(path='/#' ~ item.anchor) }}">{{ item.title }}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+{% endmacro %}

@@ -1,0 +1,8 @@
+{% macro display() %}
+{% set data = load_data(path="data/sections.json") %}
+<ul id="menu" class="menu-list">
+    {% for item in data %}
+    <li><a href="{{ get_url(path='/#' ~ item.anchor) }}">{{ item.title }}</a></li>
+    {% endfor %}
+</ul>
+{% endmacro %}

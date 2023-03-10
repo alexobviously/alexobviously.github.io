@@ -1,4 +1,6 @@
 {% import 'macros/head.html' as macros_head -%}
+{% import 'ui/side_menu.html' as side_menu -%}
+{% import 'ui/top_menu.html' as top_menu -%}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -12,12 +14,12 @@
 <body>
   <div id="sidebar" class="menu">
     {{ macros_head::avatar() }}
-    <ul id="menu" class="menu-list">
-      <li><a href="{{ get_url(path='/#about') }}">About Me</a></li>   
-      <li><a href="{{ get_url(path='/#chess') }}">Chess Packages</a></li>
-      <li><a href="{{ get_url(path='/#packages') }}">Other Packages</a></li>
-    </ul>
+    {{ side_menu::display() }}
   </div>
+  <div id="topbar">
+    {{ top_menu::display() }}
+  </div>
+
   <section class="section">
     <div id="content" class="container">
       {% block content %} {% endblock %}
