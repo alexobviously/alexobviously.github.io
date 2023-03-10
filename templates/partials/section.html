@@ -1,7 +1,7 @@
-{% macro display(title, path, show_title=false) %}
+{% macro display(path) %}
 {% set section = get_section(path=path) %}
 <div class="is-flex is-flex-direction-column is-justify-content-center">
-  <h2><a id="{{ section.extra.anchor }}" href="#{{ section.extra.anchor }}">{{ title }}</a></h2>
+  <h2><a id="{{ section.extra.anchor }}" href="#{{ section.extra.anchor }}">{{ section.title }}</a></h2>
   <div class="is-hidden-touch">
     {{ section.content | safe }}
   </div>

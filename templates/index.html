@@ -13,12 +13,8 @@
     {{ simple_section::display(path="services.md") }}
   </div>
   <hr>
-  <h3>Open Source</h3>
-  <div class="section" id="chess">
-    {{ partial_section::display(title="Chess Packages", path="chess/_index.md") }}
-  </div>
   <div class="section" id="packages">
-    {{ partial_section::display(title="Other Packages", path="packages/_index.md") }}
+    {{ partial_section::display(path="packages/_index.md") }}
   </div>
 </div>
 {% endblock content %}

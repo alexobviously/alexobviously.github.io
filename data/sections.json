@@ -8,11 +8,7 @@
         "anchor": "services"
     },
     {
-        "title": "Chess Packages",
-        "anchor": "chess"
-    },
-    {
-        "title": "Other Packages",
-        "anchor": "packages"
+        "title": "Open Source",
+        "anchor": "open-source"
     }
 ]

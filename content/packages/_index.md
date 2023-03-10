@@ -1,7 +1,7 @@
 ---
-title: Other Packages
+title: Open Source Packages
 sort_by: weight
 extra:
-    anchor: packages
+    anchor: open-source
 ---
 
