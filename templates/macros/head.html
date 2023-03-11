@@ -13,9 +13,11 @@
 {% macro avatar() %}
 {% if config.extra.avatar %}
 <div style="display:block;margin:auto auto 0;padding:.5rem">
+    <a href="/#">
     <figure class="image">
         <img id="avatar" class="is-rounded" src="{{ get_url(path=config.extra.avatar ) }}">
     </figure>
+</a>
 </div>
 {% endif %}
 {% endmacro %}

@@ -13,7 +13,7 @@ Some of the things I might be able to help you with:
 It's fairly common, especially at startups, for a project to hit a point where it is doesn't seem to be progressing as expected. Sometimes it's due to miscommunication between engineering and management. Sometimes it's the result of an early architectural choice that doesn't scale well with the direction of the project.  
 <br>
 
-Whatever the reason, I may be able to help you identify the cause and develop a plan of action to get back to speed. I have years of experience working with small businesses, helping them make decisions that get them past roadblocks.  
+Whatever the reason, I may be able to help you identify the cause and develop a plan of action to get back up to speed. I have years of experience working with small businesses, helping them make decisions that get them past roadblocks.  
 <br>
 
 The contents of a technical audit vary based on the situation, but generally it will go something like:
