@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://sandeducator.dev/</loc>
+    </url>
+    <url>
+        <loc>https://sandeducator.dev/packages/</loc>
+    </url>
+    <url>
+        <loc>https://sandeducator.dev/packages/bishop/</loc>
+    </url>
+    <url>
+        <loc>https://sandeducator.dev/packages/cachette/</loc>
+    </url>
+    <url>
+        <loc>https://sandeducator.dev/packages/nice-json/</loc>
+    </url>
+    <url>
+        <loc>https://sandeducator.dev/packages/secretary/</loc>
+    </url>
+    <url>
+        <loc>https://sandeducator.dev/packages/shelf-ndjson-stream/</loc>
+    </url>
+    <url>
+        <loc>https://sandeducator.dev/packages/squares/</loc>
+    </url>
+    <url>
+        <loc>https://sandeducator.dev/services/</loc>
+    </url>
+</urlset>
