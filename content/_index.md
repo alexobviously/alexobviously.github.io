@@ -11,6 +11,8 @@ I create and maintain a number of [open source packages](/#open-source) for Dart
 
 Originally from Manchester, UK. Currently living in Vietnam with my wife and 7 cats.
 
+_This page is still under construction, there's not much here yet._
+
 ##### Interests
 ♟️&#xFE0F; Chess and variants  
 🎶 Generative audio  
