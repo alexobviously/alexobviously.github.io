@@ -9,7 +9,7 @@ Started out writing mods for games as a wee sprog, backend/web as a teenager, st
 My language of choice is Dart 🎯, and I also like Rust 🦀.  
 I create and maintain a number of [open source packages](/#open-source) for Dart and Flutter.  
 
-Originally from Manchester, UK. Currently living in Vietnam with my wife and 7 cats.
+Originally from Manchester, UK. Currently living in Vietnam with my wife and 8 cats (+ fosters).
 
 _This page is still under construction, there's not much here yet._
 
