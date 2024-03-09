@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://sandeducator.dev"
+base_url = "https://alxbkr.xyz"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
@@ -13,5 +13,5 @@ build_search_index = true
 highlight_code = true
 
 [extra]
-email = "iamalexbaker@gmail.com"
+email = "iamalexbaker@proton.me"
 avatar = "/images/avatar.jpg"
