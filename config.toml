@@ -1,6 +1,8 @@
 # The URL the site will be built for
 base_url = "https://alxbkr.xyz"
 
+theme = "anemone"
+
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -15,3 +17,4 @@ highlight_code = true
 [extra]
 email = "iamalexbaker@proton.me"
 avatar = "/images/avatar.jpg"
+twitter_card = true
